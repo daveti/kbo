@@ -1,0 +1,31 @@
+[138829.681269] Entering: bo_init
+[138829.681273] global_data:
+[138829.681275] 01 23 45 67 89 ab cd ef
+[138829.681277] le16_to_cpu:
+[138829.681279] 01 23 45 67 89 ab cd ef
+[138829.681280] le32_to_cpu:
+[138829.681282] 01 23 45 67 89 ab cd ef
+[138829.681283] le64_to_cpu:
+[138829.681285] 01 23 45 67 89 ab cd ef
+[138829.681287] cpu_to_le16:
+[138829.681288] 01 23 45 67 89 ab cd ef
+[138829.681290] cpu_to_le32:
+[138829.681292] 01 23 45 67 89 ab cd ef
+[138829.681293] cpu_to_le64:
+[138829.681295] 01 23 45 67 89 ab cd ef
+[138829.681296] be16_to_cpu:
+[138829.681298] 23 01 67 45 ab 89 ef cd
+[138829.681300] be32_to_cpu:
+[138829.681301] 67 45 23 01 ef cd ab 89
+[138829.681303] be64_to_cpu:
+[138829.681305] ef cd ab 89 67 45 23 01
+[138829.681306] cpu_to_be16:
+[138829.681308] 23 01 67 45 ab 89 ef cd
+[138829.681309] cpu_to_be32:
+[138829.681311] 67 45 23 01 ef cd ab 89
+[138829.681313] cpu_to_be64:
+[138829.681314] ef cd ab 89 67 45 23 01
+[140211.038766] exiting bo module
+root@daveti-ThinkCentre-M58e:~/byte_order# uname -a
+Linux daveti-ThinkCentre-M58e 3.13.0-29-generic #53 SMP Sat Jul 26 21:49:12 PDT 2014 x86_64 x86_64 x86_64 GNU/Linux
+root@daveti-ThinkCentre-M58e:~/byte_order# 
